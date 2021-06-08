@@ -1,5 +1,5 @@
 # Game of Life (New)
-It's my new implamantation of game: Game of Life
+It's my new implementation of game: Game of Life
 
 This game uses JavaFX for drawing universe of game. You have to install and set up JavaFX for running this game.
 
