@@ -68,7 +68,7 @@ public class Main extends Application {
     private void drawBackground(GraphicsContext gc) {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                if (universe.isLiveCell(i, j)) {
+                if (universe.getCell(i, j).isLive()) {
                     gc.setFill(Color.web("000"));
                 } else {
                     gc.setFill(Color.web("FFF"));

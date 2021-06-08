@@ -116,8 +116,8 @@ public class Universe {
         setPattern(patternName);
     }
 
-    public boolean isLiveCell(int i, int j) {
-        return currentGeneration[i][j].isLive();
+    public Cell getCell(int i, int j) {
+        return currentGeneration[i][j];
     }
 
     public void nextGeneration() {
