@@ -49,7 +49,7 @@ public class Main extends Application {
             universe = new Universe(rows, columns, args[0]);
             if (args.length == 2) {
                 try {
-                    speed = Double.valueOf(args[1]);
+                    speed = Double.parseDouble(args[1]);
                 } catch (NumberFormatException e) {
 
                 }
